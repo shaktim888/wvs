@@ -1,0 +1,1087 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042212A70800CF48DC19EDD645EB3E41 /* _wdh.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F3FC9444C657BBE16C7740DE218C06B /* _wdh.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		08E7AD8F7BFD70B225941F3F926A275B /* WVS.h in Headers */ = {isa = PBXBuildFile; fileRef = A2C9745DFC34290689C249E6EC3EF3D8 /* WVS.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0F35C2A30EE25EFC67960AA5EA1EDB0B /* WVSRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C895AE79CA2E06A40782D1669D0FD0B /* WVSRecord.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		10CE562BEB989EE6503ED3469E4E107D /* UIWVSBottomController.h in Headers */ = {isa = PBXBuildFile; fileRef = 838EEB710A9EE042C2E32B8474E4094C /* UIWVSBottomController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1C30783637D37486815C5E1E00605D20 /* GCDWebServerConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = F31DB30061F7FA3542E667D8BE1934DB /* GCDWebServerConnection.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1F5383698D42840A96BC02739D58BFCD /* Pods-wvs_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED273AA53F71D8301AEC5E4BB34E12A0 /* Pods-wvs_Example-dummy.m */; };
+		20791260FFAE0813A35809FC3D4B055E /* GCDWebServerHTTPStatusCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E3DC6BFC557D3C99FDA5DC2B07F0E57 /* GCDWebServerHTTPStatusCodes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2B1C6D42F3C575F9FF8E32555CF8CC02 /* GCDWebServerFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E7C6ED7D34733F39870C223CBDDB1B4 /* GCDWebServerFunctions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2C403A951C5F5540F0AAAF8590D1E92C /* wvs-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 827C3C64E115576C6A667DA051691B17 /* wvs-dummy.m */; };
+		2D383D290C312934EFE683399CDA16D8 /* GCDWebServerMultiPartFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AB976683DE50C19AA6BC1DF0B0192277 /* GCDWebServerMultiPartFormRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		44750E39D2E7E62175BF16436D17831D /* UIWKWVSWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = D14BA90A2415B8FED0D8BB36F5D86E05 /* UIWKWVSWebController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		45EC09925109F7061DDB354E6219B157 /* UIWVSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AFF30215FBD0870DFAFAF6E566270B /* UIWVSAppDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		486F90A8063B40B7214276ACB5104C43 /* WVS.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FD1FD585B0FC34987D1639802819D1 /* WVS.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		49BEF2BFB3C19647166D7C0A548934B9 /* WVSRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2ED51EC244506A623C9C39C193CAFC /* WVSRecord.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4C858A7707025D123CB45D67270CEEBE /* GCDWebServerDataRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B0A906195D0625C6CCDE09E42971988 /* GCDWebServerDataRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		500A8324AE443F6E1C35F27045C3E673 /* WVS.h in Headers */ = {isa = PBXBuildFile; fileRef = A2C9745DFC34290689C249E6EC3EF3D8 /* WVS.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		56684C4200B9518E9F6B1884C271B9D9 /* GCDWebServerStreamedResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = ED07A900D45ADC945EE1ED7A74EAECF0 /* GCDWebServerStreamedResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		56A3219E6525552BA4CD33CDB9152385 /* GCDWebServerDataResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 65A4605CB8D4F670F7CB0865210BE605 /* GCDWebServerDataResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		574081647DF5D7D0EE809087A42B5370 /* UIWKWVSWebController.h in Headers */ = {isa = PBXBuildFile; fileRef = A35B170387C3405B4747EAE067BA504D /* UIWKWVSWebController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		581B12206A251BE5EE8136A534DF0988 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F79268B917320955E39B18F16A0331 /* ReplaceMe.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5CE83A284CCAD491AD5469D600705008 /* UIWVSBottomController.h in Headers */ = {isa = PBXBuildFile; fileRef = 838EEB710A9EE042C2E32B8474E4094C /* UIWVSBottomController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6471F33B7DE06ADC4366095B3D24FE5D /* GCDWebServerFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D9346522128B0C40465572938694BEB /* GCDWebServerFileResponse.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		69826B7E37A7FC715BAD93FEA593FF70 /* UIWKWVSWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = D14BA90A2415B8FED0D8BB36F5D86E05 /* UIWKWVSWebController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6B6FA80507878D2A303E32CE7F2D85E8 /* _strObf.h in Headers */ = {isa = PBXBuildFile; fileRef = 06DEEB0A2876950978B6F208C451BA3F /* _strObf.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6FD9BE490F92F216757E8AAD052CA4EC /* UIWVSLaunchViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ABF75C156DE7CA727EBFDFEA2946D7A /* UIWVSLaunchViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		712B79FBD3A892E95DDE1121A8B39108 /* _wdh.m in Sources */ = {isa = PBXBuildFile; fileRef = 413D59DE105EF5F78DC80774F3C7B1C4 /* _wdh.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		767FA246552CF68CEC37A990AC75055A /* _strObf.h in Headers */ = {isa = PBXBuildFile; fileRef = 06DEEB0A2876950978B6F208C451BA3F /* _strObf.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7B6C64C96F4E79A0B5B76AD415B358F8 /* GCDWebServerMultiPartFormRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = D79AAFC05F6B7CE3D44896D3F97A5E6F /* GCDWebServerMultiPartFormRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7C6AB70A110E95BF12FE3FB9208EC4D9 /* GCDWebServerRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = D66BAC3B3A15B3CA8596EDA2204D9D17 /* GCDWebServerRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7F978A76C782AF4EBD3180ABC02AEBCE /* GCDWebServerURLEncodedFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B60ED116175A6ACED5EAC68BCC8F12 /* GCDWebServerURLEncodedFormRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		81CAF6EB98446BFA843090037259A127 /* WVSRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2ED51EC244506A623C9C39C193CAFC /* WVSRecord.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		83500DD66CAE15EB1BA292AA3B64F3A9 /* _strObf.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDD272C5AF4936FD899833DA56DDD69 /* _strObf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		849D02A791E3BE9A04A41764D798F529 /* GCDWebServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 823E97830172F004AE8D1FB9E11BC5C6 /* GCDWebServer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8A0CC95E59169A478E17A3C21C0D8513 /* WVS.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FD1FD585B0FC34987D1639802819D1 /* WVS.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8FAFD9B023FCA0CC68E2C23233AC73AE /* GCDWebServerFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 53D3321ABEBF8C7A6B601CA67E7CA8A4 /* GCDWebServerFileResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		98C489828B98C0D683ED62BFB3FF7B0F /* realprefix.pch in Sources */ = {isa = PBXBuildFile; fileRef = 4743125E54A8AD6ECDCD92FAFB7928AE /* realprefix.pch */; };
+		99079CF5D7F002F7DEF6A18ED16F7A29 /* GCDWebServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 846C038B16FE0CC92F6ADA768A37A227 /* GCDWebServerRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		999FD2E805838D13C5DF4A3A0B064CAC /* GCDWebServerErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8DC828642B7C434A244B7F1E731BEA /* GCDWebServerErrorResponse.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		99B39DD54E2D49BB85455327F8D29BE6 /* UIWVSAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 53020AA2B57350A320DD24D318775008 /* UIWVSAppDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9C88128FA1103AC6BDD60C39B4DA01A0 /* WVSRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C895AE79CA2E06A40782D1669D0FD0B /* WVSRecord.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9CE697DA27F96C5752D49167FC44C174 /* _wdh.m in Sources */ = {isa = PBXBuildFile; fileRef = 413D59DE105EF5F78DC80774F3C7B1C4 /* _wdh.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A1D6275F43A36E4BB40A27003937E034 /* UIWVSLaunchViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ABF75C156DE7CA727EBFDFEA2946D7A /* UIWVSLaunchViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A4687BAB45F8B7E6B959B4E86A037E7A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F79268B917320955E39B18F16A0331 /* ReplaceMe.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A917D47DE24A43903CC5ACA4853FCA7A /* GCDWebServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1478D7EE2280429E64C0C5E13C713505 /* GCDWebServerConnection.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AD19AB19AF0CD9AFAB80FA1EB8ADA9D7 /* GCDWebServerURLEncodedFormRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 49CFCBB79AE408F0609B9B9BF75ACC96 /* GCDWebServerURLEncodedFormRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B0F890A988E5B501BD1082A88C342BAD /* GCDWebServerFileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79990D462FCEBF8652D37E1365856CA9 /* GCDWebServerFileRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B30A875025418CC94654D3A248239889 /* UIWVSLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1915588281D55C4F035696E9870C36 /* UIWVSLaunchViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B9B7FC6307CFA708280BBF71ADF1AF3D /* Pods-wvl_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BAEA1A3BF420E388AF8D827CBC6F4DD /* Pods-wvl_Example-dummy.m */; };
+		BEF1708A26A0A45969103C3FA5D58923 /* UIWKWVSWebController.h in Headers */ = {isa = PBXBuildFile; fileRef = A35B170387C3405B4747EAE067BA504D /* UIWKWVSWebController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BF1F878A2D329411B16ACBC9401E8BA1 /* prefix.pch in Sources */ = {isa = PBXBuildFile; fileRef = C082B61DB5710714D50CEBC127B01539 /* prefix.pch */; };
+		BFE08B57B63B83F3C0EFACCB9F8B9733 /* _wdh.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F3FC9444C657BBE16C7740DE218C06B /* _wdh.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C548B02131E9EB9A2C210A09D93B6313 /* GCDWebServerFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B670D819F30BE6BB05F3BF96C2D886 /* GCDWebServerFunctions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D076936A504B43923EAB597FEAAA761F /* UIWVSLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1915588281D55C4F035696E9870C36 /* UIWVSLaunchViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D33572B0DC59F4E724095B63CB2F0822 /* GCDWebServerResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = ECD392E709ED9D92DC53C6B524BC55D3 /* GCDWebServerResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D37E326120522C69491E1E9F59D4B27D /* GCDWebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9E6AE990CD02F13CC57432021ECD6D /* GCDWebServer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D61948C2B63527EE6C915C8E4F9A91D9 /* GCDWebServerErrorResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 155DF039CA2C2722B147306594D46D13 /* GCDWebServerErrorResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D8D57B936070B43F6B4FF2537BAF7F3F /* GCDWebServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A01D65A60D67E0EBD7F4BE0F44467F86 /* GCDWebServerResponse.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DFBEEFD8FF3737706718B2D91173BDA9 /* UIWVSBottomController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E40CBE10FE740C24E5476575F32D67C /* UIWVSBottomController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E92CE36E0F4A9CCB7C18E718F3981F4F /* GCDWebServerStreamedResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F6675C66E1F19B14B4B37030C84D6B97 /* GCDWebServerStreamedResponse.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EAAA076405460590DE1EB74104A0BC83 /* realprefix.pch in Sources */ = {isa = PBXBuildFile; fileRef = 4743125E54A8AD6ECDCD92FAFB7928AE /* realprefix.pch */; };
+		EBC278896D9B629B1C49F72267D0BBFD /* UIWVSAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 53020AA2B57350A320DD24D318775008 /* UIWVSAppDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EDB7B019772BB2173DE3948A3D434057 /* UIWVSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AFF30215FBD0870DFAFAF6E566270B /* UIWVSAppDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EDD6E4483C2AC72B8907D428F7C7F5FB /* GCDWebServerFileRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F7139D792365B1C647B887E4ED9D9E /* GCDWebServerFileRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F23209C49C3E1E2AE66A89436E347B53 /* GCDWebServerDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2B6FB69F1FB348421B4A5A9FE0DBD8 /* GCDWebServerDataRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F296966AB752BDEA4581103AF7DA8963 /* prefix.pch in Sources */ = {isa = PBXBuildFile; fileRef = C082B61DB5710714D50CEBC127B01539 /* prefix.pch */; };
+		F42247B0A1013DFCF4FF6A6E38F597FC /* _strObf.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDD272C5AF4936FD899833DA56DDD69 /* _strObf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F5B13C61D7D69FBE95FF6BCFCA62E4D9 /* UIWVSBottomController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E40CBE10FE740C24E5476575F32D67C /* UIWVSBottomController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F6D505A53B61F7232E71A3ABCDAA0D8F /* GCDWebServerDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4F17DD83884DCEBA00BF59355F60B5 /* GCDWebServerDataResponse.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F7AB65F95FAE704A2986767ED789DE94 /* GCDWebServerPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = D923DBEB2B6BB6768BB852BF1F3FFA69 /* GCDWebServerPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FFE87F6CB792E1444BBA28A482A00643 /* wvl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8D5C7233E374F1461AF625258E5EEE /* wvl-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6AE8E967BDD4BD069F1ED1D8793FA9EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3982624BFDFB4945AD0239378694816;
+			remoteInfo = wvs;
+		};
+		A9E2446B05A879812FD8C55A961482AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF72DA1079BBE2E3AD6164D0140E9414;
+			remoteInfo = wvl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		060BFCC2E6A609A1F6C9AA4CB1EF8F0F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		06DEEB0A2876950978B6F208C451BA3F /* _strObf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = _strObf.h; sourceTree = "<group>"; };
+		0B0A906195D0625C6CCDE09E42971988 /* GCDWebServerDataRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GCDWebServerDataRequest.h; sourceTree = "<group>"; };
+		0E7C6ED7D34733F39870C223CBDDB1B4 /* GCDWebServerFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFunctions.h; sourceTree = "<group>"; };
+		10AFF30215FBD0870DFAFAF6E566270B /* UIWVSAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UIWVSAppDelegate.m; sourceTree = "<group>"; };
+		11B60ED116175A6ACED5EAC68BCC8F12 /* GCDWebServerURLEncodedFormRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerURLEncodedFormRequest.m; sourceTree = "<group>"; };
+		1478D7EE2280429E64C0C5E13C713505 /* GCDWebServerConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerConnection.m; sourceTree = "<group>"; };
+		155DF039CA2C2722B147306594D46D13 /* GCDWebServerErrorResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GCDWebServerErrorResponse.h; sourceTree = "<group>"; };
+		1A2ED51EC244506A623C9C39C193CAFC /* WVSRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WVSRecord.m; sourceTree = "<group>"; };
+		1BAEA1A3BF420E388AF8D827CBC6F4DD /* Pods-wvl_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-wvl_Example-dummy.m"; sourceTree = "<group>"; };
+		1C895AE79CA2E06A40782D1669D0FD0B /* WVSRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WVSRecord.h; sourceTree = "<group>"; };
+		30A467C39C0E24083DCE7554DBA54AEA /* wvs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = wvs.release.xcconfig; sourceTree = "<group>"; };
+		33A72B5465102D8D4EDE53A024C0A0DC /* wvl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "wvl-prefix.pch"; sourceTree = "<group>"; };
+		37F98D6C92681DD31725FE620FD92732 /* wvl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = wvl.debug.xcconfig; sourceTree = "<group>"; };
+		3ABF75C156DE7CA727EBFDFEA2946D7A /* UIWVSLaunchViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UIWVSLaunchViewController.h; sourceTree = "<group>"; };
+		3D8EEE7CFB5E2427555E45D5FFB4820E /* Pods-wvl_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wvl_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3E3DC6BFC557D3C99FDA5DC2B07F0E57 /* GCDWebServerHTTPStatusCodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GCDWebServerHTTPStatusCodes.h; sourceTree = "<group>"; };
+		3E40CBE10FE740C24E5476575F32D67C /* UIWVSBottomController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UIWVSBottomController.m; sourceTree = "<group>"; };
+		3F8DC828642B7C434A244B7F1E731BEA /* GCDWebServerErrorResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerErrorResponse.m; sourceTree = "<group>"; };
+		413D59DE105EF5F78DC80774F3C7B1C4 /* _wdh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = _wdh.m; sourceTree = "<group>"; };
+		4743125E54A8AD6ECDCD92FAFB7928AE /* realprefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = realprefix.pch; sourceTree = "<group>"; };
+		49CFCBB79AE408F0609B9B9BF75ACC96 /* GCDWebServerURLEncodedFormRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GCDWebServerURLEncodedFormRequest.h; sourceTree = "<group>"; };
+		4F4F17DD83884DCEBA00BF59355F60B5 /* GCDWebServerDataResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerDataResponse.m; sourceTree = "<group>"; };
+		53020AA2B57350A320DD24D318775008 /* UIWVSAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UIWVSAppDelegate.h; sourceTree = "<group>"; };
+		53D3321ABEBF8C7A6B601CA67E7CA8A4 /* GCDWebServerFileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFileResponse.h; sourceTree = "<group>"; };
+		58DA54D84D293C6C4AD146F934D21BDF /* Pods-wvs_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wvs_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5922E70203A3FC01970D416D768B6F41 /* libPods-wvs_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-wvs_Example.a"; path = "libPods-wvs_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5968DA2238FCBCE881FC935815C6CFFD /* Pods-wvl_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-wvl_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5B90B3C416BEA2F151A4F76A3A2A7561 /* Pods-wvs_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-wvs_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		65A4605CB8D4F670F7CB0865210BE605 /* GCDWebServerDataResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GCDWebServerDataResponse.h; sourceTree = "<group>"; };
+		6C2B6FB69F1FB348421B4A5A9FE0DBD8 /* GCDWebServerDataRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerDataRequest.m; sourceTree = "<group>"; };
+		6D9346522128B0C40465572938694BEB /* GCDWebServerFileResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFileResponse.m; sourceTree = "<group>"; };
+		7440AC3AF1778D514A2DFA44D3FCF8E6 /* Pods-wvs_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-wvs_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		78EB7EB765A9A110EF747A8F944D047F /* Pods-wvs_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wvs_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		79826C048BF7A683BF605DE73FA0D7EB /* Pods-wvl_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wvl_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		79990D462FCEBF8652D37E1365856CA9 /* GCDWebServerFileRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFileRequest.m; sourceTree = "<group>"; };
+		79DD05BBE9D6BF806F7BD87B83C25EFC /* wvs-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "wvs-prefix.pch"; sourceTree = "<group>"; };
+		7E9E6AE990CD02F13CC57432021ECD6D /* GCDWebServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GCDWebServer.m; sourceTree = "<group>"; };
+		7F3FC9444C657BBE16C7740DE218C06B /* _wdh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = _wdh.h; sourceTree = "<group>"; };
+		7FC8B0336B591D7C572FB73BE66D0153 /* wvl.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = wvl.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		823E97830172F004AE8D1FB9E11BC5C6 /* GCDWebServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GCDWebServer.h; sourceTree = "<group>"; };
+		827C3C64E115576C6A667DA051691B17 /* wvs-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "wvs-dummy.m"; sourceTree = "<group>"; };
+		838EEB710A9EE042C2E32B8474E4094C /* UIWVSBottomController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UIWVSBottomController.h; sourceTree = "<group>"; };
+		846C038B16FE0CC92F6ADA768A37A227 /* GCDWebServerRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerRequest.m; sourceTree = "<group>"; };
+		86F79268B917320955E39B18F16A0331 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		88D2AC94F1AD7EC90CA0DFEBE1EC1D0F /* wvs.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = wvs.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		91F7139D792365B1C647B887E4ED9D9E /* GCDWebServerFileRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFileRequest.h; sourceTree = "<group>"; };
+		927FF0F770525919FC76FB22CCF4372B /* wvs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = wvs.debug.xcconfig; sourceTree = "<group>"; };
+		92EEFE52BE47E191D2CCFD12C6DF6CC2 /* wvl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = wvl.release.xcconfig; sourceTree = "<group>"; };
+		9D8D5C7233E374F1461AF625258E5EEE /* wvl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "wvl-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FDD272C5AF4936FD899833DA56DDD69 /* _strObf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = _strObf.m; sourceTree = "<group>"; };
+		A01D65A60D67E0EBD7F4BE0F44467F86 /* GCDWebServerResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerResponse.m; sourceTree = "<group>"; };
+		A2C9745DFC34290689C249E6EC3EF3D8 /* WVS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WVS.h; sourceTree = "<group>"; };
+		A35B170387C3405B4747EAE067BA504D /* UIWKWVSWebController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UIWKWVSWebController.h; sourceTree = "<group>"; };
+		AB976683DE50C19AA6BC1DF0B0192277 /* GCDWebServerMultiPartFormRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerMultiPartFormRequest.m; sourceTree = "<group>"; };
+		B0B670D819F30BE6BB05F3BF96C2D886 /* GCDWebServerFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFunctions.m; sourceTree = "<group>"; };
+		B358C40441CD18E3D057739E181A57BF /* libwvl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libwvl.a; path = libwvl.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2EE61F7745F381BCF080A859E685B5 /* Pods-wvl_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-wvl_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C082B61DB5710714D50CEBC127B01539 /* prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = prefix.pch; sourceTree = "<group>"; };
+		CDB9C13586B66EF4EF308475BCFBDB8B /* libwvs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libwvs.a; path = libwvs.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D14BA90A2415B8FED0D8BB36F5D86E05 /* UIWKWVSWebController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UIWKWVSWebController.m; sourceTree = "<group>"; };
+		D66BAC3B3A15B3CA8596EDA2204D9D17 /* GCDWebServerRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GCDWebServerRequest.h; sourceTree = "<group>"; };
+		D79AAFC05F6B7CE3D44896D3F97A5E6F /* GCDWebServerMultiPartFormRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GCDWebServerMultiPartFormRequest.h; sourceTree = "<group>"; };
+		D7FD1FD585B0FC34987D1639802819D1 /* WVS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WVS.m; sourceTree = "<group>"; };
+		D923DBEB2B6BB6768BB852BF1F3FFA69 /* GCDWebServerPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GCDWebServerPrivate.h; sourceTree = "<group>"; };
+		E6BEEF92A7B3A19887F78609D63C5659 /* libPods-wvl_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-wvl_Example.a"; path = "libPods-wvl_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECD392E709ED9D92DC53C6B524BC55D3 /* GCDWebServerResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GCDWebServerResponse.h; sourceTree = "<group>"; };
+		ED07A900D45ADC945EE1ED7A74EAECF0 /* GCDWebServerStreamedResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GCDWebServerStreamedResponse.h; sourceTree = "<group>"; };
+		ED273AA53F71D8301AEC5E4BB34E12A0 /* Pods-wvs_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-wvs_Example-dummy.m"; sourceTree = "<group>"; };
+		F31DB30061F7FA3542E667D8BE1934DB /* GCDWebServerConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GCDWebServerConnection.h; sourceTree = "<group>"; };
+		F6675C66E1F19B14B4B37030C84D6B97 /* GCDWebServerStreamedResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerStreamedResponse.m; sourceTree = "<group>"; };
+		FE1915588281D55C4F035696E9870C36 /* UIWVSLaunchViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UIWVSLaunchViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72822F1D53A1E2F7D9F46311ACDA917D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86B90294939F151439BEA01FD381192E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37B0C9383C2C02A6A5F1770C1D43AEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF706A9C9E607A7393587831EF21D384 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FD843E4FFB29C6F2C4C4E71BAF2FFA2 /* wvs */ = {
+			isa = PBXGroup;
+			children = (
+				C003FDB9BBE93E96D731AA83D1F7BE95 /* GCDWebServer */,
+				3C19BE43F4AD70760598022F69EED2A7 /* Pod */,
+				BBD2DA94EC61C20AB991E9FDFD8EE33F /* Support Files */,
+				CD4188C44C8F6DFF57FA7DF121F6C57B /* wvs */,
+			);
+			name = wvs;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1D95A90B91CEFE30D1FB78464B7FCDD9 /* Pods-wvl_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5968DA2238FCBCE881FC935815C6CFFD /* Pods-wvl_Example-acknowledgements.markdown */,
+				BF2EE61F7745F381BCF080A859E685B5 /* Pods-wvl_Example-acknowledgements.plist */,
+				1BAEA1A3BF420E388AF8D827CBC6F4DD /* Pods-wvl_Example-dummy.m */,
+				79826C048BF7A683BF605DE73FA0D7EB /* Pods-wvl_Example.debug.xcconfig */,
+				3D8EEE7CFB5E2427555E45D5FFB4820E /* Pods-wvl_Example.release.xcconfig */,
+			);
+			name = "Pods-wvl_Example";
+			path = "Target Support Files/Pods-wvl_Example";
+			sourceTree = "<group>";
+		};
+		3904729B403D6C0878B8D5D52297D2B8 /* wv */ = {
+			isa = PBXGroup;
+			children = (
+				A35B170387C3405B4747EAE067BA504D /* UIWKWVSWebController.h */,
+				D14BA90A2415B8FED0D8BB36F5D86E05 /* UIWKWVSWebController.m */,
+				53020AA2B57350A320DD24D318775008 /* UIWVSAppDelegate.h */,
+				10AFF30215FBD0870DFAFAF6E566270B /* UIWVSAppDelegate.m */,
+				838EEB710A9EE042C2E32B8474E4094C /* UIWVSBottomController.h */,
+				3E40CBE10FE740C24E5476575F32D67C /* UIWVSBottomController.m */,
+				3ABF75C156DE7CA727EBFDFEA2946D7A /* UIWVSLaunchViewController.h */,
+				FE1915588281D55C4F035696E9870C36 /* UIWVSLaunchViewController.m */,
+			);
+			name = wv;
+			path = wv;
+			sourceTree = "<group>";
+		};
+		3C19BE43F4AD70760598022F69EED2A7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				060BFCC2E6A609A1F6C9AA4CB1EF8F0F /* LICENSE */,
+				88D2AC94F1AD7EC90CA0DFEBE1EC1D0F /* wvs.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		434F31DE7BE7AA8B5089360C00B5761E /* wvl */ = {
+			isa = PBXGroup;
+			children = (
+				DA0057C8CE05BCDB146869EAD35D39A1 /* Pod */,
+				A642D50B91C633D425077091574FED51 /* Support Files */,
+			);
+			name = wvl;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		633BE0EFAE86283C1296EFF83B50AAB5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D95A90B91CEFE30D1FB78464B7FCDD9 /* Pods-wvl_Example */,
+				9D1801F4CDC282B6803C4CAE0CE30A28 /* Pods-wvs_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		74769C067159E5F7C9A7D54AFD30A9CC /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				65A4605CB8D4F670F7CB0865210BE605 /* GCDWebServerDataResponse.h */,
+				4F4F17DD83884DCEBA00BF59355F60B5 /* GCDWebServerDataResponse.m */,
+				155DF039CA2C2722B147306594D46D13 /* GCDWebServerErrorResponse.h */,
+				3F8DC828642B7C434A244B7F1E731BEA /* GCDWebServerErrorResponse.m */,
+				53D3321ABEBF8C7A6B601CA67E7CA8A4 /* GCDWebServerFileResponse.h */,
+				6D9346522128B0C40465572938694BEB /* GCDWebServerFileResponse.m */,
+				ED07A900D45ADC945EE1ED7A74EAECF0 /* GCDWebServerStreamedResponse.h */,
+				F6675C66E1F19B14B4B37030C84D6B97 /* GCDWebServerStreamedResponse.m */,
+			);
+			name = Responses;
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		77F7EACFD0CB53F84015B5BCEF822E8E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				434F31DE7BE7AA8B5089360C00B5761E /* wvl */,
+				0FD843E4FFB29C6F2C4C4E71BAF2FFA2 /* wvs */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9D1801F4CDC282B6803C4CAE0CE30A28 /* Pods-wvs_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5B90B3C416BEA2F151A4F76A3A2A7561 /* Pods-wvs_Example-acknowledgements.markdown */,
+				7440AC3AF1778D514A2DFA44D3FCF8E6 /* Pods-wvs_Example-acknowledgements.plist */,
+				ED273AA53F71D8301AEC5E4BB34E12A0 /* Pods-wvs_Example-dummy.m */,
+				78EB7EB765A9A110EF747A8F944D047F /* Pods-wvs_Example.debug.xcconfig */,
+				58DA54D84D293C6C4AD146F934D21BDF /* Pods-wvs_Example.release.xcconfig */,
+			);
+			name = "Pods-wvs_Example";
+			path = "Target Support Files/Pods-wvs_Example";
+			sourceTree = "<group>";
+		};
+		9F76815A64D0631CFC36C5BECAF02566 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				0B0A906195D0625C6CCDE09E42971988 /* GCDWebServerDataRequest.h */,
+				6C2B6FB69F1FB348421B4A5A9FE0DBD8 /* GCDWebServerDataRequest.m */,
+				91F7139D792365B1C647B887E4ED9D9E /* GCDWebServerFileRequest.h */,
+				79990D462FCEBF8652D37E1365856CA9 /* GCDWebServerFileRequest.m */,
+				D79AAFC05F6B7CE3D44896D3F97A5E6F /* GCDWebServerMultiPartFormRequest.h */,
+				AB976683DE50C19AA6BC1DF0B0192277 /* GCDWebServerMultiPartFormRequest.m */,
+				49CFCBB79AE408F0609B9B9BF75ACC96 /* GCDWebServerURLEncodedFormRequest.h */,
+				11B60ED116175A6ACED5EAC68BCC8F12 /* GCDWebServerURLEncodedFormRequest.m */,
+			);
+			name = Requests;
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		A642D50B91C633D425077091574FED51 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D8D5C7233E374F1461AF625258E5EEE /* wvl-dummy.m */,
+				33A72B5465102D8D4EDE53A024C0A0DC /* wvl-prefix.pch */,
+				37F98D6C92681DD31725FE620FD92732 /* wvl.debug.xcconfig */,
+				92EEFE52BE47E191D2CCFD12C6DF6CC2 /* wvl.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/wvl";
+			sourceTree = "<group>";
+		};
+		ADC9F8C71FA7E247937D9E3D0316CA1B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				86F79268B917320955E39B18F16A0331 /* ReplaceMe.m */,
+				3904729B403D6C0878B8D5D52297D2B8 /* wv */,
+				D9DCAFAB6D599A686E659786D238C48F /* wvs */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BBD2DA94EC61C20AB991E9FDFD8EE33F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				827C3C64E115576C6A667DA051691B17 /* wvs-dummy.m */,
+				79DD05BBE9D6BF806F7BD87B83C25EFC /* wvs-prefix.pch */,
+				927FF0F770525919FC76FB22CCF4372B /* wvs.debug.xcconfig */,
+				30A467C39C0E24083DCE7554DBA54AEA /* wvs.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/wvs";
+			sourceTree = "<group>";
+		};
+		C003FDB9BBE93E96D731AA83D1F7BE95 /* GCDWebServer */ = {
+			isa = PBXGroup;
+			children = (
+				CE197A6D34B8965FABB2598EBC8AC0C9 /* Core */,
+				9F76815A64D0631CFC36C5BECAF02566 /* Requests */,
+				74769C067159E5F7C9A7D54AFD30A9CC /* Responses */,
+			);
+			name = GCDWebServer;
+			path = GCDWebServer;
+			sourceTree = "<group>";
+		};
+		CD4188C44C8F6DFF57FA7DF121F6C57B /* wvs */ = {
+			isa = PBXGroup;
+			children = (
+				ADC9F8C71FA7E247937D9E3D0316CA1B /* Classes */,
+			);
+			name = wvs;
+			path = wvs;
+			sourceTree = "<group>";
+		};
+		CE197A6D34B8965FABB2598EBC8AC0C9 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				823E97830172F004AE8D1FB9E11BC5C6 /* GCDWebServer.h */,
+				7E9E6AE990CD02F13CC57432021ECD6D /* GCDWebServer.m */,
+				F31DB30061F7FA3542E667D8BE1934DB /* GCDWebServerConnection.h */,
+				1478D7EE2280429E64C0C5E13C713505 /* GCDWebServerConnection.m */,
+				0E7C6ED7D34733F39870C223CBDDB1B4 /* GCDWebServerFunctions.h */,
+				B0B670D819F30BE6BB05F3BF96C2D886 /* GCDWebServerFunctions.m */,
+				3E3DC6BFC557D3C99FDA5DC2B07F0E57 /* GCDWebServerHTTPStatusCodes.h */,
+				D923DBEB2B6BB6768BB852BF1F3FFA69 /* GCDWebServerPrivate.h */,
+				D66BAC3B3A15B3CA8596EDA2204D9D17 /* GCDWebServerRequest.h */,
+				846C038B16FE0CC92F6ADA768A37A227 /* GCDWebServerRequest.m */,
+				ECD392E709ED9D92DC53C6B524BC55D3 /* GCDWebServerResponse.h */,
+				A01D65A60D67E0EBD7F4BE0F44467F86 /* GCDWebServerResponse.m */,
+			);
+			name = Core;
+			path = Core;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				77F7EACFD0CB53F84015B5BCEF822E8E /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				D872F87B3FB50AC2D2125C04BCBE5C51 /* Products */,
+				633BE0EFAE86283C1296EFF83B50AAB5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D872F87B3FB50AC2D2125C04BCBE5C51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6BEEF92A7B3A19887F78609D63C5659 /* libPods-wvl_Example.a */,
+				5922E70203A3FC01970D416D768B6F41 /* libPods-wvs_Example.a */,
+				B358C40441CD18E3D057739E181A57BF /* libwvl.a */,
+				CDB9C13586B66EF4EF308475BCFBDB8B /* libwvs.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9DCAFAB6D599A686E659786D238C48F /* wvs */ = {
+			isa = PBXGroup;
+			children = (
+				06DEEB0A2876950978B6F208C451BA3F /* _strObf.h */,
+				9FDD272C5AF4936FD899833DA56DDD69 /* _strObf.m */,
+				7F3FC9444C657BBE16C7740DE218C06B /* _wdh.h */,
+				413D59DE105EF5F78DC80774F3C7B1C4 /* _wdh.m */,
+				C082B61DB5710714D50CEBC127B01539 /* prefix.pch */,
+				4743125E54A8AD6ECDCD92FAFB7928AE /* realprefix.pch */,
+				A2C9745DFC34290689C249E6EC3EF3D8 /* WVS.h */,
+				D7FD1FD585B0FC34987D1639802819D1 /* WVS.m */,
+				1C895AE79CA2E06A40782D1669D0FD0B /* WVSRecord.h */,
+				1A2ED51EC244506A623C9C39C193CAFC /* WVSRecord.m */,
+			);
+			name = wvs;
+			path = wvs;
+			sourceTree = "<group>";
+		};
+		DA0057C8CE05BCDB146869EAD35D39A1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7FC8B0336B591D7C572FB73BE66D0153 /* wvl.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		366FF57252DF3AAF14646FB333B656CB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B6FA80507878D2A303E32CE7F2D85E8 /* _strObf.h in Headers */,
+				042212A70800CF48DC19EDD645EB3E41 /* _wdh.h in Headers */,
+				849D02A791E3BE9A04A41764D798F529 /* GCDWebServer.h in Headers */,
+				1C30783637D37486815C5E1E00605D20 /* GCDWebServerConnection.h in Headers */,
+				4C858A7707025D123CB45D67270CEEBE /* GCDWebServerDataRequest.h in Headers */,
+				56A3219E6525552BA4CD33CDB9152385 /* GCDWebServerDataResponse.h in Headers */,
+				D61948C2B63527EE6C915C8E4F9A91D9 /* GCDWebServerErrorResponse.h in Headers */,
+				EDD6E4483C2AC72B8907D428F7C7F5FB /* GCDWebServerFileRequest.h in Headers */,
+				8FAFD9B023FCA0CC68E2C23233AC73AE /* GCDWebServerFileResponse.h in Headers */,
+				2B1C6D42F3C575F9FF8E32555CF8CC02 /* GCDWebServerFunctions.h in Headers */,
+				20791260FFAE0813A35809FC3D4B055E /* GCDWebServerHTTPStatusCodes.h in Headers */,
+				7B6C64C96F4E79A0B5B76AD415B358F8 /* GCDWebServerMultiPartFormRequest.h in Headers */,
+				F7AB65F95FAE704A2986767ED789DE94 /* GCDWebServerPrivate.h in Headers */,
+				7C6AB70A110E95BF12FE3FB9208EC4D9 /* GCDWebServerRequest.h in Headers */,
+				D33572B0DC59F4E724095B63CB2F0822 /* GCDWebServerResponse.h in Headers */,
+				56684C4200B9518E9F6B1884C271B9D9 /* GCDWebServerStreamedResponse.h in Headers */,
+				AD19AB19AF0CD9AFAB80FA1EB8ADA9D7 /* GCDWebServerURLEncodedFormRequest.h in Headers */,
+				BEF1708A26A0A45969103C3FA5D58923 /* UIWKWVSWebController.h in Headers */,
+				EBC278896D9B629B1C49F72267D0BBFD /* UIWVSAppDelegate.h in Headers */,
+				10CE562BEB989EE6503ED3469E4E107D /* UIWVSBottomController.h in Headers */,
+				6FD9BE490F92F216757E8AAD052CA4EC /* UIWVSLaunchViewController.h in Headers */,
+				08E7AD8F7BFD70B225941F3F926A275B /* WVS.h in Headers */,
+				0F35C2A30EE25EFC67960AA5EA1EDB0B /* WVSRecord.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F392B5C933CF14A35E2946C0ADF0497 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767FA246552CF68CEC37A990AC75055A /* _strObf.h in Headers */,
+				BFE08B57B63B83F3C0EFACCB9F8B9733 /* _wdh.h in Headers */,
+				574081647DF5D7D0EE809087A42B5370 /* UIWKWVSWebController.h in Headers */,
+				99B39DD54E2D49BB85455327F8D29BE6 /* UIWVSAppDelegate.h in Headers */,
+				5CE83A284CCAD491AD5469D600705008 /* UIWVSBottomController.h in Headers */,
+				A1D6275F43A36E4BB40A27003937E034 /* UIWVSLaunchViewController.h in Headers */,
+				500A8324AE443F6E1C35F27045C3E673 /* WVS.h in Headers */,
+				9C88128FA1103AC6BDD60C39B4DA01A0 /* WVSRecord.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EEFDC5774EFE5E815D8BD50BD856063 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D584B0AFCC893EB198337414466BA2E3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		95C529A86D836C4A313AB8A55D29D5FA /* Pods-wvs_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 437E6443A35892DB001FE4E6F9905D4A /* Build configuration list for PBXNativeTarget "Pods-wvs_Example" */;
+			buildPhases = (
+				D584B0AFCC893EB198337414466BA2E3 /* Headers */,
+				FBB342CF6E16ED9F70B5C38B157D1041 /* Sources */,
+				86B90294939F151439BEA01FD381192E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA51D3CCC6249147864023A7B5B6699F /* PBXTargetDependency */,
+			);
+			name = "Pods-wvs_Example";
+			productName = "Pods-wvs_Example";
+			productReference = 5922E70203A3FC01970D416D768B6F41 /* libPods-wvs_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		ABBD86CEFFFB744A9BAD48DE721C6157 /* Pods-wvl_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8782E822E8F9563F77DDB1DA07DFB284 /* Build configuration list for PBXNativeTarget "Pods-wvl_Example" */;
+			buildPhases = (
+				8EEFDC5774EFE5E815D8BD50BD856063 /* Headers */,
+				A9CC0043CFB55FDEC6F7417007AC3024 /* Sources */,
+				72822F1D53A1E2F7D9F46311ACDA917D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CD800C47AD42906176BD30E710ACAC1 /* PBXTargetDependency */,
+			);
+			name = "Pods-wvl_Example";
+			productName = "Pods-wvl_Example";
+			productReference = E6BEEF92A7B3A19887F78609D63C5659 /* libPods-wvl_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B3982624BFDFB4945AD0239378694816 /* wvs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3032FEDFF71947FA46780EA5782FE5FA /* Build configuration list for PBXNativeTarget "wvs" */;
+			buildPhases = (
+				366FF57252DF3AAF14646FB333B656CB /* Headers */,
+				CA9B80C0329740A4C1CD82A55B53E4FD /* Sources */,
+				EF706A9C9E607A7393587831EF21D384 /* Frameworks */,
+				AC47CD1DBEA6C016634D1DA03D20417F /* [CP-User] rebuild_a */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wvs;
+			productName = wvs;
+			productReference = CDB9C13586B66EF4EF308475BCFBDB8B /* libwvs.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BF72DA1079BBE2E3AD6164D0140E9414 /* wvl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C3F828D321B2B2A7EAAC15400708118 /* Build configuration list for PBXNativeTarget "wvl" */;
+			buildPhases = (
+				7F392B5C933CF14A35E2946C0ADF0497 /* Headers */,
+				0E229B5E7646B85172708C45D9912235 /* Sources */,
+				D37B0C9383C2C02A6A5F1770C1D43AEB /* Frameworks */,
+				4DEF6CFCE358930656D0DA4A211CD334 /* [CP-User] rebuild_a */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wvl;
+			productName = wvl;
+			productReference = B358C40441CD18E3D057739E181A57BF /* libwvl.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D872F87B3FB50AC2D2125C04BCBE5C51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABBD86CEFFFB744A9BAD48DE721C6157 /* Pods-wvl_Example */,
+				95C529A86D836C4A313AB8A55D29D5FA /* Pods-wvs_Example */,
+				BF72DA1079BBE2E3AD6164D0140E9414 /* wvl */,
+				B3982624BFDFB4945AD0239378694816 /* wvs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4DEF6CFCE358930656D0DA4A211CD334 /* [CP-User] rebuild_a */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] rebuild_a";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "  FMK_NAME=${PROJECT_NAME}\n  if [ \"${ACTION}\" = \"build\" ]\n    then\n    INSTALL_DIR=${SRCROOT}/Products/wvl\n    DEVICE_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphoneos/wvl\n    SIMULATOR_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphonesimulator/wvl\n    \n    # -configuration ${CONFIGURATION}\n    # Clean and Building both architectures.\n    #xcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos clean build\n    #xcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator clean build\n    \n    if [ -d \"${INSTALL_DIR}\" ]\n      then\n      rm -rf \"${INSTALL_DIR}\"\n    fi\n    mkdir -p \"${INSTALL_DIR}\"\n    cp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n    #ditto \"${DEVICE_DIR}/Headers\" \"${INSTALL_DIR}/Headers\"\n    lipo -create \"${DEVICE_DIR}/libwvl.a\" \"${SIMULATOR_DIR}/libwvl.a\" -output \"${INSTALL_DIR}/libwvl.a\"\n    #这个是合并完成后打开对应的文件夹，你就可以直接看到文件了\n    #open \"${SRCROOT}/Products/wvl\"\n  fi\n";
+		};
+		AC47CD1DBEA6C016634D1DA03D20417F /* [CP-User] rebuild_a */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] rebuild_a";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "  FMK_NAME=${PROJECT_NAME}\n  if [ \"${ACTION}\" = \"build\" ]\n    then\n    INSTALL_DIR=${SRCROOT}/Products/wvs\n    DEVICE_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphoneos/wvs\n    SIMULATOR_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphonesimulator/wvs\n    \n    # -configuration ${CONFIGURATION}\n    # Clean and Building both architectures.\n    #xcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos clean build\n    #xcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator clean build\n    \n    if [ -d \"${INSTALL_DIR}\" ]\n      then\n      rm -rf \"${INSTALL_DIR}\"\n    fi\n    mkdir -p \"${INSTALL_DIR}\"\n    cp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n    #ditto \"${DEVICE_DIR}/Headers\" \"${INSTALL_DIR}/Headers\"\n    lipo -create \"${DEVICE_DIR}/libwvs.a\" \"${SIMULATOR_DIR}/libwvs.a\" -output \"${INSTALL_DIR}/libwvs.a\"\n    #这个是合并完成后打开对应的文件夹，你就可以直接看到文件了\n    #open \"${SRCROOT}/Products/wvs\"\n    fi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E229B5E7646B85172708C45D9912235 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83500DD66CAE15EB1BA292AA3B64F3A9 /* _strObf.m in Sources */,
+				712B79FBD3A892E95DDE1121A8B39108 /* _wdh.m in Sources */,
+				BF1F878A2D329411B16ACBC9401E8BA1 /* prefix.pch in Sources */,
+				98C489828B98C0D683ED62BFB3FF7B0F /* realprefix.pch in Sources */,
+				581B12206A251BE5EE8136A534DF0988 /* ReplaceMe.m in Sources */,
+				44750E39D2E7E62175BF16436D17831D /* UIWKWVSWebController.m in Sources */,
+				EDB7B019772BB2173DE3948A3D434057 /* UIWVSAppDelegate.m in Sources */,
+				F5B13C61D7D69FBE95FF6BCFCA62E4D9 /* UIWVSBottomController.m in Sources */,
+				B30A875025418CC94654D3A248239889 /* UIWVSLaunchViewController.m in Sources */,
+				FFE87F6CB792E1444BBA28A482A00643 /* wvl-dummy.m in Sources */,
+				486F90A8063B40B7214276ACB5104C43 /* WVS.m in Sources */,
+				49BEF2BFB3C19647166D7C0A548934B9 /* WVSRecord.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9CC0043CFB55FDEC6F7417007AC3024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B7FC6307CFA708280BBF71ADF1AF3D /* Pods-wvl_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA9B80C0329740A4C1CD82A55B53E4FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F42247B0A1013DFCF4FF6A6E38F597FC /* _strObf.m in Sources */,
+				9CE697DA27F96C5752D49167FC44C174 /* _wdh.m in Sources */,
+				D37E326120522C69491E1E9F59D4B27D /* GCDWebServer.m in Sources */,
+				A917D47DE24A43903CC5ACA4853FCA7A /* GCDWebServerConnection.m in Sources */,
+				F23209C49C3E1E2AE66A89436E347B53 /* GCDWebServerDataRequest.m in Sources */,
+				F6D505A53B61F7232E71A3ABCDAA0D8F /* GCDWebServerDataResponse.m in Sources */,
+				999FD2E805838D13C5DF4A3A0B064CAC /* GCDWebServerErrorResponse.m in Sources */,
+				B0F890A988E5B501BD1082A88C342BAD /* GCDWebServerFileRequest.m in Sources */,
+				6471F33B7DE06ADC4366095B3D24FE5D /* GCDWebServerFileResponse.m in Sources */,
+				C548B02131E9EB9A2C210A09D93B6313 /* GCDWebServerFunctions.m in Sources */,
+				2D383D290C312934EFE683399CDA16D8 /* GCDWebServerMultiPartFormRequest.m in Sources */,
+				99079CF5D7F002F7DEF6A18ED16F7A29 /* GCDWebServerRequest.m in Sources */,
+				D8D57B936070B43F6B4FF2537BAF7F3F /* GCDWebServerResponse.m in Sources */,
+				E92CE36E0F4A9CCB7C18E718F3981F4F /* GCDWebServerStreamedResponse.m in Sources */,
+				7F978A76C782AF4EBD3180ABC02AEBCE /* GCDWebServerURLEncodedFormRequest.m in Sources */,
+				F296966AB752BDEA4581103AF7DA8963 /* prefix.pch in Sources */,
+				EAAA076405460590DE1EB74104A0BC83 /* realprefix.pch in Sources */,
+				A4687BAB45F8B7E6B959B4E86A037E7A /* ReplaceMe.m in Sources */,
+				69826B7E37A7FC715BAD93FEA593FF70 /* UIWKWVSWebController.m in Sources */,
+				45EC09925109F7061DDB354E6219B157 /* UIWVSAppDelegate.m in Sources */,
+				DFBEEFD8FF3737706718B2D91173BDA9 /* UIWVSBottomController.m in Sources */,
+				D076936A504B43923EAB597FEAAA761F /* UIWVSLaunchViewController.m in Sources */,
+				2C403A951C5F5540F0AAAF8590D1E92C /* wvs-dummy.m in Sources */,
+				8A0CC95E59169A478E17A3C21C0D8513 /* WVS.m in Sources */,
+				81CAF6EB98446BFA843090037259A127 /* WVSRecord.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBB342CF6E16ED9F70B5C38B157D1041 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F5383698D42840A96BC02739D58BFCD /* Pods-wvs_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CD800C47AD42906176BD30E710ACAC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = wvl;
+			target = BF72DA1079BBE2E3AD6164D0140E9414 /* wvl */;
+			targetProxy = A9E2446B05A879812FD8C55A961482AA /* PBXContainerItemProxy */;
+		};
+		AA51D3CCC6249147864023A7B5B6699F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = wvs;
+			target = B3982624BFDFB4945AD0239378694816 /* wvs */;
+			targetProxy = 6AE8E967BDD4BD069F1ED1D8793FA9EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5A4FBF27165859ABC88E00877EE4A323 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37F98D6C92681DD31725FE620FD92732 /* wvl.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/wvl/wvl-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = wvl;
+				PRODUCT_NAME = wvl;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		680EFA56C11237D12883CAB8FC66C321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92EEFE52BE47E191D2CCFD12C6DF6CC2 /* wvl.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/wvl/wvl-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = wvl;
+				PRODUCT_NAME = wvl;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7ADDC18533D3D6AE7836D95539393AC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 927FF0F770525919FC76FB22CCF4372B /* wvs.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/wvs/wvs-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = wvs;
+				PRODUCT_NAME = wvs;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9661C12DE7B3E334096018C3F1540ABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78EB7EB765A9A110EF747A8F944D047F /* Pods-wvs_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		981267B465CC981DFC00961E222408EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79826C048BF7A683BF605DE73FA0D7EB /* Pods-wvl_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1E74E48D0B209345D11FB1C443158D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58DA54D84D293C6C4AD146F934D21BDF /* Pods-wvs_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B976439CF3BDD603F7BE1968FEDFC9E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D8EEE7CFB5E2427555E45D5FFB4820E /* Pods-wvl_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2F8EE5F9099DD342466ABE77F6FF7AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30A467C39C0E24083DCE7554DBA54AEA /* wvs.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/wvs/wvs-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = wvs;
+				PRODUCT_NAME = wvs;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C3F828D321B2B2A7EAAC15400708118 /* Build configuration list for PBXNativeTarget "wvl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4FBF27165859ABC88E00877EE4A323 /* Debug */,
+				680EFA56C11237D12883CAB8FC66C321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3032FEDFF71947FA46780EA5782FE5FA /* Build configuration list for PBXNativeTarget "wvs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ADDC18533D3D6AE7836D95539393AC7 /* Debug */,
+				C2F8EE5F9099DD342466ABE77F6FF7AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		437E6443A35892DB001FE4E6F9905D4A /* Build configuration list for PBXNativeTarget "Pods-wvs_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9661C12DE7B3E334096018C3F1540ABF /* Debug */,
+				B1E74E48D0B209345D11FB1C443158D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8782E822E8F9563F77DDB1DA07DFB284 /* Build configuration list for PBXNativeTarget "Pods-wvl_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				981267B465CC981DFC00961E222408EF /* Debug */,
+				B976439CF3BDD603F7BE1968FEDFC9E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

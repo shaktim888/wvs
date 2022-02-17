@@ -1,0 +1,21 @@
+PODS:
+  - wvl (0.1.0)
+  - wvs (0.1.0)
+
+DEPENDENCIES:
+  - wvl (from `../`)
+  - wvs (from `../`)
+
+EXTERNAL SOURCES:
+  wvl:
+    :path: "../"
+  wvs:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  wvl: 16cdf7e00061e39fd6c9673c5df95d3bf3a511d6
+  wvs: e3ff4103e9ed3f8613ca8163d085cb7927750d23
+
+PODFILE CHECKSUM: 212b2c21354873e154d2c8832397f1e99f944bd1
+
+COCOAPODS: 1.9.3

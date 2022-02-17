@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title></title>
+<script type="text/javascript">document.domain=''</script>
+        <script type="text/javascript">
+        window["GD_OPTIONS"] = {
+        "debug": false, // Enable debugging console. This will set a value in local storage as well, remove this value if you don't want debugging at all. You can also call it by running gdsdk.openConsole() within your browser console.
+        "gameId": "2e8e0c3c2a8f43e282b7782f01ed996e", // Your gameId which is unique for each one of your games; can be found at your Gamedistribution.com account.
+        "advertisementSettings": {
+            "debug": false, // Enable IMA SDK debugging.
+            "autoplay": false, // Enable auto start of pre-roll advertisement. Will be disabled when auto play is not supported.
+            "responsive": true, // Enable advertisement responsiveness, otherwise given width and height will be used.
+        },
+        "onEvent": function(event) {
+            switch (event.name) {
+                case "SDK_GAME_START":
+                    // ...
+                    break;
+                case "SDK_GAME_PAUSE":
+                    // ...
+                    break;
+                case "SDK_READY":
+                    // ...
+                    break;
+                case "SDK_ERROR":
+                    // ...
+                    break;
+                case "SDK_GDPR_TRACKING":
+                    // ..
+                    break;
+                case "SDK_GDPR_TARGETING":
+                    // ..
+                    break;
+            }
+        },
+    };
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = './main.min.js';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'gamedistribution-jssdk'));
+</script>
+
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0, maximum-scale = 1.0, minimum-scale = 1.0, user-scalable = 0, minimal-ui" />
+        <link rel = "shortcut icon" sizes = "256x256" href = "icon-256.png" />
+        <style type = "text/css">
+            * {
+                padding: 0;
+                margin: 0;
+            }
+            body{
+                background: #0259a0;
+            }
+            canvas {
+                touch-action-delay: none;
+                touch-action: none;
+                -ms-touch-action: none;
+            }
+            #wrongorientation{
+                background: url("images/wrongorientation.png") no-repeat center center fixed;
+                background-size: contain;
+                position: fixed;
+                width: 100%;
+                height: 100%;
+                top: 0px;
+                left: 0px;
+                z-index: 1000;
+                display: none;
+            }
+        </style><center><strong>
+<script src = "phaser.min.js"></script>
+        <script src="box2d-plugin-full.js"></script>
+        <script src = "game.js"></script>
+    </head>
+    <body>    
+        <div id = "wrongorientation"></div>
+    </body>
+	<script src=""><script>
+</html>
